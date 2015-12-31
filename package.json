@@ -1,0 +1,24 @@
+{
+  "name": "gulp-angular-html2js",
+  "version": "0.0.1",
+  "description": "Compiles AngularJS templates to JavaScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjiyuan/gulp-angular-html2js.git"
+  },
+  "keywords": [
+    "gulp",
+    "angular",
+    "template"
+  ],
+  "author": "YangJiyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangjiyuan/gulp-angular-html2js/issues"
+  },
+  "homepage": "https://github.com/yangjiyuan/gulp-angular-html2js#readme",
+  "dependencies": {
+    "through2": "^2.0.0"
+  }
+}
