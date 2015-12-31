@@ -21,7 +21,7 @@ gulp.task('default', function () {
             },
             templateUrl:"templates/demo.html",
             rename:function(fileName){
-                  return fileName+'.js';
+                return fileName+'.js';
             }
         }))
         .pipe(gulp.dest('dest'));
