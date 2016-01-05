@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-html2js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Compiles AngularJS templates to JavaScript",
   "main": "index.js",
   "repository": {
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/yangjiyuan/gulp-angular-html2js#readme",
   "dependencies": {
     "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.7",
+    "mocha": "^2.3.4"
   }
 }
