@@ -79,6 +79,7 @@ gulp.task('default', function () {
 
 ```
 alert.html.js:
+
 angular.module("alert/templates/alert.html",[]).run(["$templateCache",function($templateCache){
     $templateCache.put("templates/alert.html",
     "<div class=\"alert alert-success\" role=\"alert\">"+
